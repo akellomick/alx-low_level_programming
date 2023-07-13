@@ -3,14 +3,12 @@
 /**
  * main - Entry point
  * 
- * return:0 == no error
+ * Return: Always 0.
  */
 int main(void)
 {
 	char msg[] = "Programming is like building a multilingual puzzle";
-
 	puts(msg);
-
-	return 0;
+	return (0);
 }
 
