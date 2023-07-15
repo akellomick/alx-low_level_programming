@@ -5,7 +5,7 @@
  * main - use nested if_else to check is random number
  *is positive/0/negative
  *
- * Retuen: Always(0)
+ * Return: Always(0)
  * betty style doc for function main goes there
  */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d is 0\n", n);
+		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
 
