@@ -6,6 +6,7 @@
  * prototype for 4-isalpha
  * prototype for 5-sign.c
  * prototype for 6-abs.c
+ * prototype for 7-print_last_digit.c
  */
 int _putchar (char c);
 char print_alphabet();
@@ -14,3 +15,4 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
+int print_last_digit(int);
