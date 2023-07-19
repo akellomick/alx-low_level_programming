@@ -23,5 +23,5 @@ void print_alphabet_x10(void)
 		column++;
 	}
 
-	return (void);
+	return
 }
