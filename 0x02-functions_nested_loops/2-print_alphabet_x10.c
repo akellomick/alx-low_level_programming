@@ -5,6 +5,7 @@
  * in lowercase, followed by a new line.
  *
  *Return: Always 1 on success
+ On error, -1 is returned, and errno is set appropriately.
  */
 void print_alphabet_x10(void)
 {
