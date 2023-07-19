@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 {
 	int column = 0;
 
-	while (column <= 9)
+	while (column < 10)
 	{
 		char alphabet;
 
