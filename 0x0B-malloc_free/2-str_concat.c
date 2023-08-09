@@ -13,7 +13,7 @@ char *str_concat(char *s1, char *s2)
 	char *final_cpy;
 	int size1, size2, x;
 
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL && s2 == NULL)
 		return (NULL);
 
 	size1 = 0;
