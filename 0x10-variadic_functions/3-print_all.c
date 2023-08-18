@@ -32,10 +32,9 @@ void print_all(const char * const format, ...)
 					break;
 				case 's':
 					word = va_arg(list, char *);
-					if (word != NULL)
-						printf("%s%s", separator, word);
-					else
-						printf("(nil)");
+					if (!word)
+						word = "(nil)";
+					printf("%s%s", separator, word);
 					break;
 				default:
 					x++;
