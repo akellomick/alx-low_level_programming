@@ -13,6 +13,11 @@ int main(int argc, char *argv[])
 	int bytes, x;
 	char *array;
 
+	if (argc <= 0 || argv == NULL)
+	{
+		exit(1);
+	}
+
 	if (argc != 2)
 	{
 		printf("Error\n");
