@@ -13,11 +13,6 @@ int main(int argc, char *argv[])
 	int bytes, x;
 	char *array;
 
-	if (argc <= 0 || argv == NULL)
-	{
-		exit(1);
-	}
-
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -40,8 +35,7 @@ int main(int argc, char *argv[])
 			printf("%02hhx\n", array[x]);
 			break;
 		}
-
-		printf("%02hhx", array[x]);
+		printf("%02hhx ", array[x]);
 	}
 
 	return (0);
