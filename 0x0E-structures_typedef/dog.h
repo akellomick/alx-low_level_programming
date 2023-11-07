@@ -20,7 +20,7 @@ struct dog
 };
 
 /**
- * dog_t: typedef for dog.
+ * dog_t- typedef for dog.
  *
  * Description: Defines type dog_t as a new name for the type struct dog.
  */
