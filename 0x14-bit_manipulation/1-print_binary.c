@@ -8,17 +8,21 @@
  */
 void print_binary(unsigned long int n)
 {
+	int itr, count = 0;
 	unsigned long int pos;
 
-	pos = 1UL << (sizeof(unsigned long int) * 8 - 1);
-
-	while (pos > 0)
+	for (itr = 63; itr >= 0; itr--)
 	{
-		if (n & pos)
-			_putchar('1');
-		else
-			_putchar('0');
+		pos = n >> itr;
 
-		pos >>= 1;
+		if (pos & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if(count)
+			_putchar('0');
 	}
+	if (!count)
+		_putchar('0');
 }
